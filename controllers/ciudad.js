@@ -1,7 +1,6 @@
 const Ciudad = require('../models/ciudad')
 
 exports.getVerCiudadesPorPais = (req,res)=>{
-
     res.send("ciudades por pais")
 }
 
