@@ -5,6 +5,6 @@ router.post("/almacenarCiudades",CiudadController.postAlmacenarCiudades)
 
 router.get("/VerCiudadesPorPais/:pais",CiudadController.getVerCiudadesPorPais)
 
-router.post("/delete",CiudadController.postDeleteCiudad)
+router.get("/deleteAll",CiudadController.getDeleteAll)
 
 module.exports = router
